@@ -11,4 +11,12 @@ npm install
 npm run dev
 ```
 
-Create a `.env.local` file based on `.env.local.example` to configure Supabase credentials.
+Copy `.env.local.example` to `.env.local` and replace the placeholder values
+with your Supabase project credentials:
+
+```bash
+cp .env.local.example .env.local
+```
+
+Then edit `.env.local` and fill in the real `NEXT_PUBLIC_SUPABASE_URL` and
+`NEXT_PUBLIC_SUPABASE_ANON_KEY` values.
